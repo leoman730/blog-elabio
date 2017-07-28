@@ -1,4 +1,4 @@
-![Logo of the project](./images/logo.sample.png)
+![Logo of the project](./images/el-logo.png)
 
 # Blog for http://elabio (not yet setup)
 > Additional information or tag line
