@@ -1,6 +1,6 @@
 ![Logo of the project](./images/el-logo.png)
 
-# Blog for http://elabio (not yet setup)
+# http://blog.elabio (not yet setup)
 > Additional information or tag line
 
 A brief description of your project, what it is used for.
@@ -19,9 +19,9 @@ Here you should say what actually happens when you execute the code above.
 ## Developing
 
 ### Built With
-Drupal 8
-PHP 7
-Mysql 5.5
+Drupal 8 
+PHP 7 
+Mysql 5.5 
 
 ### Prerequisites
 Docksal (https://docksal.io/) - For development environment
