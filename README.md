@@ -19,24 +19,42 @@ Here you should say what actually happens when you execute the code above.
 ## Developing
 
 ### Built With
-List main libraries, frameworks used including versions (React, Angular etc...)
+Drupal 8
+PHP 7
+Mysql 5.5
 
 ### Prerequisites
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+Docksal (https://docksal.io/) - For development environment
+
+```shell
+# Install dosksal
+curl -fsSL get.docksal.io | sh
+```
 
 
 ### Setting up Dev
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
-
 ```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
+
+git clone git@github.com:leoman730/blog-elabio.git
+cd blog-elabio
+
+# Start doskal as local dev environment
+fin vm start
+fin up
+
+# Set up local development host address (blog.elab.dev)
+fin hosts add blog.elab.dev
+fin restart
 ```
 
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
+Once dosksal restart properly, refer to .docksal/docksal.env for credentials set up. (subject to change locally)
+
+
+Additional php, mysql setting could be made under .docksal/etc. You may need to restart docksal thereafter.
+```shell
+fin restart
+```
 
 ### Building
 
